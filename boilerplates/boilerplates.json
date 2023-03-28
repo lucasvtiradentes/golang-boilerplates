@@ -1,0 +1,12 @@
+[
+  {
+    "name": "go-server",
+    "category": "backend-server",
+    "options": []
+  },
+  {
+    "name": "go-basic",
+    "category": "other",
+    "options": []
+  }
+]

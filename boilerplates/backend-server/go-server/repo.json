@@ -1,0 +1,23 @@
+{
+  "description": "go basic server application",
+  "image": {
+    "src": "",
+    "width": "",
+    "height": ""
+  },
+  "app_features": [
+    "[golang](https://go.dev/) server backend"
+  ],
+  "project_features": [],
+  "commands": [],
+  "options": [],
+  "resources": [
+    "[golang documentation](https://go.dev/)"
+  ],
+  "app_techs": [
+    "golang"
+  ],
+  "project_techs": [
+    "vscode"
+  ]
+}

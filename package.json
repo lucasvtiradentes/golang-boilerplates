@@ -1,0 +1,34 @@
+{
+  "name": "golang-boilerplates",
+  "description": "📁 golang boilerplates meant to be used alongside boilermanager.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasvtiradentes/golang-boilerplates.git"
+  },
+  "scripts": {
+    "dev": "npm run update",
+    "update": "npm run update:json && npm run update:md && npm run update:projects",
+    "update:json": "tsx ./update/update-json.ts",
+    "update:md": "tsx ./update/update-readme.ts",
+    "update:projects": "tsx ./update/update-projects-readme.ts",
+
+    "prepare": "husky install",
+    "commit": "cz"
+  },
+  "dependencies": {
+    "dyn-markdown": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.4",
+    "commitizen-emoji": "^1.0.5",
+    "commitizen": "^4.2.6",
+
+    "husky": "^8.0.3",
+    "tsx": "^3.12.6",
+    "typescript": "^4.9.4"
+  }
+}
