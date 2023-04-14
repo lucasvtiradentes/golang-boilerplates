@@ -10,7 +10,7 @@
 
 <br>
 
-The following projects are meant to be used alongside [boilermanager](https://github.com/lucasvtiradentes/boilermanager). To use them, first install it globally (`npm install -g boilermanager`) and after simply run `bpm -r lucasvtiradentes/go-boilerplates`.
+The following projects are meant to be used alongside [boilermanager](https://github.com/lucasvtiradentes/boilermanager). To use them, first install it globally (`npm install -g boilermanager`) and after simply run `bpm -r lucasvtiradentes/golang-boilerplates`.
 
 <div align="center">
 <!-- <DYNFIELD:boilerplates> -->
